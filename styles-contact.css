@@ -1,0 +1,171 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%; /*responsiveness*/
+  padding: 0;
+  margin: 0;
+background-image: url(background.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+text-align: center;	
+margin-top: 1px auto;
+}
+
+.center {
+    width: 550px;
+    padding: 1%;
+    margin-top: 20px; /* Adjusted to reduce space between logo and center division */
+    margin: 50px auto; /* Moves the center div higher on the page */
+    background: rgba(255, 255, 255, 0.652);
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#logo {
+    margin-top: 30px; /* Reduced to bring the logo closer to the center div */
+    margin-bottom: -40px; /* Adjust spacing between logo and center div */
+    text-align: center;
+	
+}
+
+
+h1 {
+	font-family: "ivypresto-headline", serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 4em;
+    margin: 0px auto 10px auto;
+    color: #534741;
+}
+
+h2 {
+	font-family: "ivypresto-headline", serif;
+	font-weight: 400;
+	font-style: italic; 
+	font-size: 2.3em;
+    line-height: .5=;
+    color: #bad7f1;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	
+}
+
+p {
+	
+	font-family: "ivypresto-headline", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.9em;
+    line-height: 1.5;
+    color: #534741;
+	margin-top: -15;
+}
+p .highlight { 
+	font-family: "ivypresto-headline", serif;
+	font-weight:300;
+	font-style: italic; 
+	font-size: 1em;
+    color: #534741;
+}	
+	
+.phone-icon {
+		color: #534741;
+		font-size: 25px; 
+	}
+
+	
+
+    nav{
+		font-family: "beverly-drive", sans-serif;
+		font-weight: 600;
+		font-style: normal;
+	font-size: 1.8em;
+	line-height: 1.5;
+	width: 400px;
+    margin: 0px auto 10px auto;
+    color: #534741;
+	text-align: center; 
+	margin-top: 0em; 
+
+
+
+	}
+
+	nav li{
+	display: inline-flex;
+	}
+
+	nav a{
+		display: inline-block;
+		padding: 9px;
+	}
+
+	a{
+		color: #bad7f1;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: #534741;
+		background:#bad7f1;
+		line-height: 1px;
+	}
